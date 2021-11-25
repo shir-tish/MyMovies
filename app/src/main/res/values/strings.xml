@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyMovies</string>
+    <string name="horror">horror</string>
+    <string name="animation">animation</string>
+    <string name="action">action</string>
+    <string name="documentary">documentary</string>
+    <string name="drama">drama</string>
+    <string name="history">history</string>
+    <string name="adventure">adventure</string>
+    <string name="science_fiction">science fiction</string>
+    <string name="music">music</string>
+    <string name="thriller">thriller</string>
+    <string name="war">war</string>
+    <string name="mystery">mystery</string>
+    <string name="western">western</string>
+    <string name="family">family</string>
+    <string name="telefilm">telefilm</string>
+    <string name="fantasy">fantasy</string>
+    <string name="crime">crime</string>
+    <string name="comedy">comedy</string>
+    <string name="romance">romance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

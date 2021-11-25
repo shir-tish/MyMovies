@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragmentMain"
+    android:background="#b2b3b4">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout"
+        android:layout_margin="10dp"
+        tools:listitem="@layout/item_movie"/>
+
+    <TextView
+        android:id="@+id/no_liked_movies"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout"
+        android:text="You have not marked any movie as liked yet!"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

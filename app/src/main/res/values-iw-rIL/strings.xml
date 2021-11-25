@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyMovies</string>
+    <string name="horror">אימה</string>
+    <string name="animation">אנימציה</string>
+    <string name="action">אקשן</string>
+    <string name="documentary">דוקומנטרי</string>
+    <string name="drama">דרמה</string>
+    <string name="history">היסטוריה</string>
+    <string name="adventure">הרפתקאות</string>
+    <string name="science_fiction">מדע בדיוני</string>
+    <string name="music">מוסיקה</string>
+    <string name="thriller">מותחן</string>
+    <string name="war">מלחמה</string>
+    <string name="mystery">מסתורין</string>
+    <string name="western">מערבון</string>
+    <string name="family">משפחה</string>
+    <string name="telefilm">סרט טלויזיה</string>
+    <string name="fantasy">פנטזיה</string>
+    <string name="crime">פשע</string>
+    <string name="comedy">קומדיה</string>
+    <string name="romance">רומנטי</string>
+</resources>
